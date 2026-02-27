@@ -119,6 +119,7 @@ DeviceNetworkEvents
 | where isnotempty(InitiatingProcessAccountDomain)
 | project TimeGenerated, DeviceName, InitiatingProcessAccountName, InitiatingProcessCommandLine, InitiatingProcessFileName, InitiatingProcessFolderPath
 ```
+<img width="1364" height="118" alt="Flag 1" src="https://github.com/user-attachments/assets/67f46fb7-96b1-4ca6-9c1e-434d50f81c12" />
 
 ---
 
@@ -181,6 +182,7 @@ DeviceProcessEvents
 | project TimeGenerated, FileName, ProcessCommandLine
 | order by TimeGenerated desc
 ```
+<img width="530" height="103" alt="Flag 4 and 5" src="https://github.com/user-attachments/assets/5d251fdf-ee4e-44dd-ac0f-24a6b4088d1c" />
 
 ---
 
@@ -203,6 +205,7 @@ DeviceProcessEvents
 | project TimeGenerated, FileName, ProcessCommandLine
 | order by TimeGenerated desc
 ```
+<img width="530" height="103" alt="Flag 4 and 5" src="https://github.com/user-attachments/assets/0f6f3afb-48b3-4ffd-aace-0476315a8e76" />
 
 ---
 
@@ -224,6 +227,7 @@ DeviceNetworkEvents
 | project TimeGenerated, ActionType, DeviceName, RemoteIP, RemotePort, RemoteUrl, InitiatingProcessFileName, InitiatingProcessCommandLine
 | order by TimeGenerated desc
 ```
+<img width="1355" height="128" alt="Flag 6" src="https://github.com/user-attachments/assets/d1385923-02eb-4fdb-adf4-f2d6a2da1849" />
 
 ---
 
@@ -245,6 +249,7 @@ DeviceNetworkEvents
 | project TimeGenerated, ActionType, DeviceName, RemoteUrl, InitiatingProcessFileName, InitiatingProcessCommandLine
 | order by TimeGenerated desc
 ```
+<img width="328" height="96" alt="Flag 7" src="https://github.com/user-attachments/assets/600f1440-03cc-4199-b3fc-82b3579e514c" />
 
 ---
 
@@ -267,6 +272,7 @@ DeviceNetworkEvents
 | project TimeGenerated, ActionType, DeviceName, RemoteUrl, InitiatingProcessFileName, InitiatingProcessCommandLine
 | order by TimeGenerated desc
 ```
+<img width="668" height="94" alt="Flag 8" src="https://github.com/user-attachments/assets/75826444-1dee-4880-96ff-7efdeb04490c" />
 
 ---
 
@@ -295,6 +301,7 @@ DeviceProcessEvents
 | project TimeGenerated, DeviceName, ProcessCommandLine, InitiatingProcessFileName, AccountName
 | order by TimeGenerated desc
 ```
+<img width="807" height="119" alt="Flag 9" src="https://github.com/user-attachments/assets/7761c1ed-8a13-49a5-8612-93584c97ff19" />
 
 ---
 
@@ -323,6 +330,7 @@ DeviceProcessEvents
 | project TimeGenerated, DeviceName, ProcessCommandLine, InitiatingProcessFileName, AccountName
 | order by TimeGenerated desc
 ```
+<img width="293" height="99" alt="Flag 10" src="https://github.com/user-attachments/assets/ff2d639a-ffb7-466a-b997-9ea5c007462b" />
 
 ---
 
@@ -351,6 +359,7 @@ DeviceProcessEvents
 | project TimeGenerated, DeviceName, ProcessCommandLine, InitiatingProcessFileName, AccountName
 | order by TimeGenerated desc
 ```
+<img width="182" height="86" alt="Flag 11" src="https://github.com/user-attachments/assets/15b88a41-3b36-42ee-a5df-5d39a4619822" />
 
 ---
 
@@ -373,6 +382,7 @@ DeviceProcessEvents
 | project TimeGenerated, FileName, ProcessCommandLine
 | order by TimeGenerated desc
 ```
+<img width="563" height="101" alt="Flag 12" src="https://github.com/user-attachments/assets/77f6a92e-bcf5-4a4f-a286-a2ce7485866a" />
 
 ---
 
@@ -395,6 +405,7 @@ DeviceProcessEvents
 | project TimeGenerated, FileName, ProcessCommandLine
 | order by TimeGenerated desc
 ```
+<img width="616" height="215" alt="Flag 13, 14, 15,  16" src="https://github.com/user-attachments/assets/f4fb25a0-5d57-45e0-abad-2cb029a923c6" />
 
 ---
 
@@ -417,6 +428,7 @@ DeviceProcessEvents
 | project TimeGenerated, FileName, ProcessCommandLine
 | order by TimeGenerated desc
 ```
+<img width="616" height="215" alt="Flag 13, 14, 15,  16" src="https://github.com/user-attachments/assets/a8548b92-a13b-48ed-b2b9-e7823a9be846" />
 
 ---
 
@@ -439,6 +451,7 @@ DeviceProcessEvents
 | project TimeGenerated, FileName, ProcessCommandLine
 | order by TimeGenerated desc
 ```
+<img width="616" height="215" alt="Flag 13, 14, 15,  16" src="https://github.com/user-attachments/assets/80678e66-6106-4ab0-a697-3995e749e67c" />
 
 ---
 
@@ -461,6 +474,7 @@ DeviceProcessEvents
 | project TimeGenerated, FileName, ProcessCommandLine, SHA256
 | order by TimeGenerated desc
 ```
+<img width="616" height="215" alt="Flag 13, 14, 15,  16" src="https://github.com/user-attachments/assets/bfac939e-965b-498f-bf07-90d9c0ca72ec" />
 
 ---
 
