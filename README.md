@@ -161,6 +161,7 @@ DeviceNetworkEvents
 | where isnotempty(InitiatingProcessAccountDomain)
 | project TimeGenerated, InitiatingProcessFileName, InitiatingProcessFolderPath, InitiatingProcessSHA256, InitiatingProcessParentFileName
 ```
+<img width="516" height="131" alt="Flag 3" src="https://github.com/user-attachments/assets/eb0c1282-37c7-4cf3-a476-a925fec12058" />
 
 ---
 
