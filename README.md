@@ -140,6 +140,7 @@ DeviceNetworkEvents
 | where isnotempty(InitiatingProcessAccountDomain)
 | project TimeGenerated, InitiatingProcessFileName, InitiatingProcessFolderPath, InitiatingProcessSHA256
 ```
+<img width="1097" height="134" alt="Flag 2" src="https://github.com/user-attachments/assets/8b08f4fc-9f01-4744-8fae-ccde2c2d28b4" />
 
 ---
 
