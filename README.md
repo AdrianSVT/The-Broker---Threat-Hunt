@@ -497,6 +497,7 @@ DeviceNetworkEvents
 | project TimeGenerated, ActionType, DeviceName, RemoteUrl, InitiatingProcessFileName, InitiatingProcessCommandLine
 | order by TimeGenerated desc
 ```
+<img width="602" height="83" alt="Flag 17" src="https://github.com/user-attachments/assets/103237d1-9e04-44f7-95a1-7ba9fa9bc706" />
 
 ---
 
@@ -519,6 +520,7 @@ DeviceProcessEvents
 | project TimeGenerated, FileName, FolderPath, ProcessCommandLine, SHA256
 | order by TimeGenerated desc
 ```
+<img width="914" height="126" alt="Flag 18" src="https://github.com/user-attachments/assets/c3d41a9e-e297-4e5c-9692-783d604a0601" />
 
 ---
 
@@ -562,6 +564,7 @@ DeviceFileEvents
 | summarize FirstSeen = min(Timestamp) by DeviceName, FolderPath, InitiatingProcessFileName
 | order by FirstSeen asc
 ```
+<img width="522" height="132" alt="Flag 20" src="https://github.com/user-attachments/assets/b4bd2408-9fcd-4f55-b8b7-099a6e9d0cf6" />
 
 ---
 
@@ -584,6 +587,7 @@ DeviceProcessEvents
 | project Timestamp, DeviceName, FileName, ProcessCommandLine, AccountName, InitiatingProcessFileName
 | order by Timestamp desc
 ```
+<img width="1241" height="275" alt="Flag 21" src="https://github.com/user-attachments/assets/bf45d63b-9203-4a09-bf25-26b7393646f9" />
 
 ---
 
@@ -606,6 +610,7 @@ DeviceProcessEvents
 | project Timestamp, DeviceName, FileName, ProcessCommandLine, AccountName, InitiatingProcessFileName
 | order by Timestamp desc
 ```
+<img width="1193" height="73" alt="Flag 22" src="https://github.com/user-attachments/assets/fa7eb6de-9501-4858-918d-7d8733c47ffd" />
 
 ---
 
@@ -627,6 +632,7 @@ DeviceEvents
 | project Timestamp, DeviceName, ActionType, InitiatingProcessFileName, InitiatingProcessCommandLine, AccountName
 | order by Timestamp desc
 ```
+<img width="848" height="248" alt="Flag 23" src="https://github.com/user-attachments/assets/4b692389-9ffc-425c-ac47-402899e6f9ce" />
 
 ---
 
@@ -660,6 +666,7 @@ DeviceEvents
 | project Timestamp, DeviceName, InitiatingProcessAccountName, AccountName, ActionType, InitiatingProcessFileName, InitiatingProcessCommandLine
 | order by Timestamp desc
 ```
+<img width="510" height="239" alt="Flag 25" src="https://github.com/user-attachments/assets/ae43debc-0435-4423-99a6-0ed8993be831" />
 
 ---
 
@@ -682,6 +689,7 @@ DeviceProcessEvents
 | project Timestamp, DeviceName, ProcessCommandLine, AccountName, InitiatingProcessFileName
 | order by Timestamp desc
 ```
+<img width="870" height="245" alt="Flag 26, 27" src="https://github.com/user-attachments/assets/b2d66c0d-1f3a-4535-9f71-8e75dc1cc542" />
 
 ---
 
@@ -704,6 +712,7 @@ DeviceProcessEvents
 | project Timestamp, DeviceName, ProcessCommandLine, AccountName, InitiatingProcessFileName
 | order by Timestamp desc
 ```
+<img width="870" height="245" alt="Flag 26, 27" src="https://github.com/user-attachments/assets/745338c3-dc37-4c2b-a21c-363fa496b97b" />
 
 ---
 
@@ -726,6 +735,7 @@ DeviceProcessEvents
 | project Timestamp, DeviceName, ProcessCommandLine, AccountName, InitiatingProcessFileName
 | order by Timestamp desc
 ```
+<img width="1191" height="128" alt="Flag 28, 29" src="https://github.com/user-attachments/assets/3d451860-b78d-4e69-b791-5b1a2d31a035" />
 
 ---
 
@@ -748,6 +758,7 @@ DeviceProcessEvents
 | project Timestamp, DeviceName, ProcessCommandLine, AccountName, InitiatingProcessFileName
 | order by Timestamp desc
 ```
+<img width="1191" height="128" alt="Flag 28, 29" src="https://github.com/user-attachments/assets/fdc6ec8a-868f-4013-9e14-ecb8031ad21b" />
 
 ---
 
@@ -770,6 +781,7 @@ DeviceProcessEvents
 | project Timestamp, DeviceName, ProcessCommandLine, AccountName, InitiatingProcessFileName
 | order by Timestamp desc
 ```
+<img width="905" height="119" alt="Flag 30" src="https://github.com/user-attachments/assets/9eac8179-7153-4271-b555-73c75b23b791" />
 
 ---
 
@@ -795,6 +807,7 @@ DeviceFileEvents
 | project Timestamp, ActionType, DeviceName, FileName, FolderPath
 | order by Timestamp desc
 ```
+<img width="1102" height="169" alt="Flag 31 32" src="https://github.com/user-attachments/assets/6ca00e3a-a7d7-4413-9345-bf02197da6a8" />
 
 ---
 
@@ -820,6 +833,7 @@ DeviceFileEvents
 | project Timestamp, ActionType, DeviceName, FileName, FolderPath
 | order by Timestamp desc
 ```
+<img width="1102" height="169" alt="Flag 31 32" src="https://github.com/user-attachments/assets/57c53fa7-2ee7-4543-8d97-b4eb0abdb771" />
 
 ---
 
@@ -840,6 +854,7 @@ DeviceFileEvents
     or FileName has ".~lock.BACS_Payments_Dec2025"
 | project Timestamp, DeviceName, FileName, FolderPath, ActionType, InitiatingProcessFileName
 ```
+<img width="980" height="125" alt="Flag 33" src="https://github.com/user-attachments/assets/65976e56-0573-44b3-9e30-f62756dee101" />
 
 ---
 
@@ -864,6 +879,7 @@ DeviceFileEvents
 | project Timestamp, DeviceName, FileName, FolderPath, ActionType, InitiatingProcessFileName
 | order by Timestamp desc
 ```
+<img width="998" height="175" alt="Flag 34" src="https://github.com/user-attachments/assets/9dfcc291-eeb8-48f4-b7f4-5d73b2cb564b" />
 
 ---
 
@@ -888,6 +904,7 @@ DeviceFileEvents
 | project Timestamp, DeviceName, FileName, FolderPath, ActionType, InitiatingProcessFileName, SHA256
 | order by Timestamp desc
 ```
+<img width="917" height="121" alt="Flag 35" src="https://github.com/user-attachments/assets/0e9a7658-d7ca-4204-9c0a-7ba6c041f616" />
 
 ---
 
@@ -913,6 +930,7 @@ DeviceProcessEvents
 | project Timestamp, DeviceName, ProcessCommandLine, AccountName, InitiatingProcessFileName
 | order by Timestamp desc
 ```
+<img width="836" height="239" alt="Flag 36" src="https://github.com/user-attachments/assets/8a57d3e9-eecb-4d8a-839c-42e0682530c0" />
 
 ---
 
@@ -932,6 +950,7 @@ DeviceEvents
 | where DeviceName in ("as-pc2", "as-pc1", "as-srv")
 | distinct ActionType
 ```
+<img width="313" height="173" alt="Flag 37" src="https://github.com/user-attachments/assets/499287f3-a760-43a7-bb54-32131677bdd7" />
 
 ---
 
@@ -953,6 +972,7 @@ DeviceEvents
 | project Timestamp, DeviceName, ActionType, AdditionalFields, FileName, InitiatingProcessFileName, InitiatingProcessCommandLine, AccountName
 | order by Timestamp desc
 ```
+<img width="977" height="110" alt="Flag 38 39" src="https://github.com/user-attachments/assets/f77f1b8a-74d3-4e83-8914-f69d82806122" />
 
 ---
 
@@ -974,6 +994,7 @@ DeviceEvents
 | project Timestamp, DeviceName, ActionType, AdditionalFields, FileName, InitiatingProcessFileName, InitiatingProcessCommandLine, AccountName
 | order by Timestamp desc
 ```
+<img width="977" height="110" alt="Flag 38 39" src="https://github.com/user-attachments/assets/3495b677-1f52-4580-82f2-14ed485ea98d" />
 
 ---
 
